@@ -1,0 +1,242 @@
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+    font-size: 16px;
+}
+body {
+    line-height: 1.375;
+    padding: 0; margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+/* Layout */
+
+a {text-decoration: none;color:#000;font-size: 1rem;}
+a:hover { text-decoration: none;}
+
+h1 {
+    font-size: 2.3rem;
+    margin: 1.25rem 0 1.56rem;
+    font-weight: 400;
+}
+
+ h2 {
+    font-size: 2rem;
+    margin: 1.25rem 0 1.56rem;
+    font-weight: 400;
+}
+
+
+h3 {
+    font-size: 1.8rem;
+    margin: 1.25rem 0 1.56rem;
+    font-weight: 400;
+    line-height:140%;
+    }
+h4 {
+    font-size: 1.5rem;
+    margin: 1.56rem 0 1.56rem;
+    font-weight: 400;
+    line-height:140%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body.width-full #fContent > .container {
+    width: 100%;
+    padding: 0;
+    min-width: 100%;
+}
+body.width-full #fMatter {
+    padding: 0;
+}
+body.title-off .fPageTitle {
+    display: none;
+}
+#fMatter .fModule,
+#fSidebarRight .fModule,
+#fContentPre .fModule,
+#fContentPost .fModule {
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+    overflow:hidden;
+}
+#f-messages {
+    margin: 0;
+}
+
+.spacing-no {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+@media (max-width : 767.8px) {
+    .col-xs-12 {
+        float: none;
+    }
+}
+#fMatter .fModule.fBanner {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow:hidden;
+}
+
+/*Module*/
+.fModule .fModuleTitle,
+.fModule .fModuleContent {
+    width: 100%;
+}
+/*Background */
+.fBgDark {
+    background: #cd8f16;
+    color: #ffffff;
+}
+.fBgDark a {color: #ffffff; }
+.fBgDark a:hover {}
+.fBgLight {
+    background: #0d2d62;
+    color: #fff !important;
+}
+.fBgLight a {color: #505050;}
+.fBgLight a:hover { color: #005d88;}
+.fBgWhite {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #cecece;
+}
+.fBgWhite a, .fBgWhite a:hover {color: #d34344;}
+.fBgColor {
+    background: #fff;
+    color: #ccc;
+}
+.fBgColor p {
+    color: #aeaeae;
+}
+.fBgColor a, .fBgColor h3, .fBgColor h4 {color: #ffffff; line-height: 120%;}
+/* Button */
+
+
+/* Column */
+#fMatter .fCol5 .fGalleryImages .fGalleryItem,
+#fContentPost .fCol5 .fGalleryImages .fGalleryItem,
+.fCol5 .fGalleryImages .fGalleryItem {
+    width: 20%;
+    float: left;
+    padding: 2em;
+}
+/* Common CSS */
+
+input.form-control,
+textarea.form-control {
+    display: inline-block;
+    margin: 10px 0px;
+}
+/* Module */
+.fModuleEnd .fModuleTitle,
+.fModuleEnd .fModuleContent,
+.fModuleBoxed {
+  margin: 0 auto;
+}   
+/* Responsive Homepage */
+@media (max-width : 319px) {
+    .fModuleEnd .fModuleTitle,
+    .fModuleEnd .fModuleContent,
+    .fModuleBoxed {
+        width: 280px;
+    }  
+}
+@media (min-width : 320px) {
+    .fModuleEnd .fModuleTitle,
+    .fModuleEnd .fModuleContent,
+    .fModuleBoxed {
+        width: 300px;
+    }        
+}
+@media (min-width : 480px) {
+    .fModuleEnd .fModuleTitle,
+    .fModuleEnd .fModuleContent,
+    .fModuleBoxed {
+        width: 470px;
+    }
+}
+@media (min-width: 768px) {
+    .fModuleEnd .fModuleTitle,
+    .fModuleEnd .fModuleContent,
+    .fModuleBoxed {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .fModuleEnd .fModuleTitle,
+    .fModuleEnd .fModuleContent,
+    .fModuleBoxed {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .fModuleEnd .fModuleTitle,
+    .fModuleEnd .fModuleContent,
+    .fModuleBoxed {
+        width: 1170px;
+    }
+}
+
+.fRegion{
+    display: inline-block;
+    width: 100%;
+}
+#fPageTitle{
+    display: block ;
+}
+
+
+
+#fContent > .container{
+    width: 100% ;
+    padding: 0;
+}
+
+.fHeader1 .navbar-header{
+    width: 100% !important;
+    padding: 0 !important;
+    float: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+ul.fGalleryImages.fGalleryList {
+    position: relative;
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+ul.fGalleryImages.fGalleryList  li.fGalleryItem 
+{
+    margin: 0px;
+    list-style: none;
+
+}
+
+header .fModule.fLogo
+{
+    padding-left: 0;
+}
+
+header ul, header ul li {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+
+/*********------------pinki--------------****************/

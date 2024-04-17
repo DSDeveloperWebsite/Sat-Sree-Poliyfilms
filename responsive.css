@@ -1,0 +1,400 @@
+@media screen and (max-width: 1300px)
+{   
+    .banner .fGalleryText
+    {
+        width:40%;
+        top: 25%;
+    }
+    .banner h3
+    {
+        font-size: 40px;
+    }
+
+    .testimonials .f-list-item-container
+    {
+        height: 445px;
+    }
+}
+
+@media screen and (max-width: 1200px)
+{
+    .testimonials .f-list-item-container
+    {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 1100px)
+{
+    .banner .fGalleryText
+    {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+ .menu-hover-1 .fMenu > li > a{ margin-left:30px;}
+
+ }
+
+ @media screen and (max-width: 991px) {
+ .whatwe h5{ line-height:inherit; font-size:15px;}
+
+
+ .testimonials .f-list-item-container
+    {
+        height: 480px;
+    }
+ .path-home- header.fHeader1
+ {
+    position: relative;
+ }
+ header.fHeader1.active .navbar-header .container
+ {
+     padding-top: 15px;
+     padding-bottom: 15px;
+ }
+ header.fHeader1 .menu-horizontal nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 100px;
+    z-index: 99999;
+    width: 100%;
+    height: auto;
+    
+}
+
+ header.fHeader1 .menu-horizontal nav > ul > li {
+    background: white!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 0.5s ease;
+}
+header.fHeader1 .menu-horizontal nav > ul > li:hover
+{
+    background-color: #769d31!important;
+}
+header.fHeader1 .menu-horizontal nav>ul>li
+{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: -3px;
+}
+header.fHeader1 .menu-horizontal nav>ul>li>a {
+    color: #769d31 !important;
+    font-size: 17px;
+    transition: all 0.5s ease;
+}
+
+header.fHeader1 .menu-horizontal nav > ul > li:hover a
+{
+    color: white!important;
+    background-color: #769d31!important;
+}
+
+.career span.menu-item-text
+{
+    color: #769d31;
+    padding: 0px;
+    transition: all 0.5s ease;
+}
+
+header.fHeader1 .menu-horizontal nav > ul > li:hover a span.menu-item-text
+{
+    color: white;
+}
+.career span.menu-item-text{ margin:0;}
+
+ .email {
+margin:5px 0 0 0;
+}
+.email span a{
+font-size: 12px!important;
+margin:0;
+}
+ header .navbar-toggle .icon-bar {
+ background: #769d31;
+ height: 3px;
+ width: 26px;
+}
+ 
+ul.social-media li {
+margin-top:5px;
+}
+ .logoheader img {
+width:10%;
+}
+.navbar-toggle-container .navbar-toggle
+{
+    margin-top: 20px;
+}
+header.fHeader1.active .navbar-toggle-container .navbar-toggle {
+    margin-top: 5px;
+}
+ header.fHeader1.active p {
+margin:0;
+}
+.fheaderrowToptwo {
+text-align:center;
+}
+.itsoft-header-top {
+ padding: 1px 0 5px 0;
+}
+.about-us h3 {
+line-height:55px;
+}
+.services h3 {
+font-size:17px;
+}
+
+.download h3
+{
+    font-size: 1.8rem;
+}
+.services.download p
+{
+    margin-top: 30px;
+}
+
+.services p {
+margin:0 0 0 0;
+}
+.banner .fGalleryImage img
+{
+    height: 500px;
+}
+ .banner .fGalleryText {
+position:absolute;
+top: 10%;
+left: 2%;
+width:70%;
+padding: 0px;
+}
+.banner h5 {
+margin:0;
+}
+.banner h3 {
+font-size:30px;
+line-height: 1.1;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.banner .fGalleryText {
+padding:50px;
+}
+.banner p {
+font-size:16px;
+margin:0;
+}
+
+.f-products-table .table_div
+{
+    width: 100%;
+    overflow: scroll;
+}
+
+.itsoft-header-top::after
+{
+    width: 65%;
+}
+
+.about-us img {
+    width:100%;
+    margin-bottom:30px;
+    padding-right: 0px;
+    }
+    .about-us h3 {
+    line-height:45px;
+    }
+}
+
+@media screen and (max-width: 867px) 
+{
+    
+}
+
+ @media screen and (max-width: 767px) {
+ header .navbar-toggle .icon-bar {
+ background: #769d31;
+ height: 3px;
+ width: 26px;
+}
+
+a.fButton, input.fButton
+{
+    padding: 10px 20px;
+}
+
+ .logoheader img {
+width:15%;
+}
+ .navbar-toggle-container .navbar-toggle {
+
+}
+ header.fHeader1.active p {
+margin:0;
+}
+.fheaderrowToptwo {
+text-align:center;
+}
+.itsoft-header-top {
+ padding: 0;
+}
+ .email span {
+font-size:10px;
+margin:0;
+}
+ul.social-media
+{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+ul.social-media li {
+font-size:15px;
+margin-top:10px;
+}
+
+.email {
+margin:10px 5px 10px 0px;
+}
+.logoheader p {
+ margin: 5px;
+}
+
+.banner .fGalleryImage img
+{
+    height: 500px;
+}
+ .banner .fGalleryText {
+position:absolute;
+top: 5%;
+left: 2%;
+width:70%;
+padding: 0px;
+}
+.banner h5 {
+margin:0;
+}
+.banner h3 {
+font-size:30px;
+line-height: 1.1;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.banner .fGalleryText {
+padding:50px;
+}
+.banner p {
+font-size:16px;
+margin:0;
+}
+
+.content p 
+{
+margin-top:0px;
+}
+/* .services .ItemfinnerGallery 
+{
+margin-bottom:30px;
+} */
+.services li {
+width:100%;
+}
+
+.itsoft-header-top::after
+{
+    width: 75%;
+}
+
+.testimonials .f-list-item-container
+{
+    height: 100%;
+}
+}
+@media screen and (max-width: 577px)
+{   
+    .banner .fGalleryText
+    {
+        width: 85%;
+    }
+
+    .banner .fGalleryText a.fButton
+    {
+        padding: 10px 20px!important;
+    }
+    .itsoft-header-top::after
+    {
+        background-color: transparent;
+    }
+
+    .fheaderrowToptwo
+    {
+        background: linear-gradient(90deg , #769d31 42%, #769d31 42%, #769d31 100%);
+    }
+    .region-headertop > div.row
+    {
+        --bs-gutter-x: 0;
+    }
+    .itsoft-header-top .row
+    {
+        --bs-gutter-x: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header.fHeader1 .menu-horizontal nav
+    {
+        top: 140px;
+    }
+}
+
+@media screen and (max-width: 567px)
+{
+    .fHeader1 .navbar-header .container
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header.fHeader1 .menu-horizontal nav>ul>li>a {
+        color: #769d31 !important;
+        font-size: 13px;
+    }
+    .fHeader1 .navbar-header .container
+    {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .banner .fGalleryImage img
+    {
+        height: 450px;
+    }
+    .banner .fGalleryText
+    {
+        width: 100%;
+        padding: 30px;
+    }
+    .f-products-table .table_div table thead tr th
+    {
+        font-size: 15px;
+    }
+    .fPageTitle h1
+    {
+        font-size: 25px!important;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+    .client h3
+    {
+        font-size: 1.7rem;
+    }
+
+    
+}

@@ -1,0 +1,1226 @@
+* {
+    margin: 0;
+    outline: 0
+}
+
+html {
+    min-height: 100%
+}
+
+body {
+    cursor: default;
+    background: #fff;
+    color: #000;
+    font-family: Arial, Times, serif;
+    font-size: 12px;
+    min-height: 100%
+}
+
+p {
+    margin: 1em 0
+}
+
+ol,
+ul {
+    margin: 1em 0;
+    padding: 0 0 0 1em
+}
+
+ol li,
+ul li {
+    margin: .5em 0 .5em 20px
+}
+
+body {
+    position: relative
+}
+
+.f-indent {
+    float: left;
+    width: 1.5em;
+    height: 1em
+}
+
+.f-state-highlight {
+    background-color: #fbec88 !important
+}
+
+.bg-green {
+    background-color: #c8fdb5
+}
+
+.bg-red {
+    background-color: #fbdbdc
+}
+
+.bg-orange {
+    background-color: #ffdaa7
+}
+
+a,
+a:visited {
+    text-decoration: none
+}
+
+a:active,
+a:hover {
+    text-decoration: none
+}
+
+abbr {
+    cursor: help
+}
+
+textarea {
+    resize: vertical
+}
+
+.ui-widget {
+    font-size: 1em
+}
+
+.ui-dialog {
+    max-width: 98%;
+    z-index: 99999
+}
+
+.ui-dialog .ui-dialog-content {
+    padding: .5em 0
+}
+
+.ipop-content iframe {
+    border: none;
+    display: block;
+    min-height: 480px;
+    max-width: 100%;
+    width: 100%
+}
+
+.ui-icon-none {
+    display: none
+}
+
+.ui-multiselect-all .ui-icon,
+.ui-multiselect-none .ui-icon {
+    display: none
+}
+
+.ui-multiselect-menu {
+    max-width: 400px
+}
+
+.f-well,
+.ui-well {
+    background-color: #e8e8e8;
+    border: 1px solid #ccc;
+    color: #000;
+    margin-bottom: 1em;
+    padding: 8px 4px
+}
+
+.ui-tabs {
+    position: static
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 1em
+}
+
+.f-toolbar,
+.ui-toolbar {
+    margin-bottom: 1em;
+    overflow: hidden;
+    padding: 0
+}
+
+.f-toolbar .f-toolbar-row,
+.ui-toolbar .ui-toolbar-row {
+    padding: 3px 0;
+    overflow: hidden
+}
+
+.ui-toolbar .ui-buttonset {
+    margin: 0 4px
+}
+
+.ui-toolbar .ui-toolbar-row:last-of-type {
+    margin-bottom: 0
+}
+
+.ui-widget-header {
+    background-position: 0 0
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    color: #000
+}
+
+.ui-menu {
+    padding: 0
+}
+
+.ui-menu .ui-menu {
+    margin: 0
+}
+
+.ui-menu .ui-menu-icon {
+    margin-top: .25em;
+    margin-left: .25em
+}
+
+.ui-menu .ui-menu-divider {
+    border-color: #ccc;
+    margin: .5em 0
+}
+
+.ui-menu-item>a {
+    display: block
+}
+
+ul.ui-autocomplete {
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-width: 300px
+}
+
+.ui-autocomplete-loading,
+input.ui-loading {
+    background-image: url(images/loader-small.gif);
+    background-position: 99% center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc
+}
+
+.ui-autocomplete .ui-menu-item .label {
+    display: block
+}
+
+.ui-autocomplete .ui-menu-item .caption {
+    font-size: .8em;
+    font-style: italic
+}
+
+ul.f-actions {
+    z-index: 99999
+}
+
+.f-actions,
+.f-actions ul {
+    padding: 0
+}
+
+.f-actions ul {
+    position: relative;
+    z-index: 999
+}
+
+.ui-menu .ui-menu-item a.f-trigger {
+    display: none;
+    height: 1.2em;
+    padding-left: 5px
+}
+
+.f-actions .ui-menu .ui-menu {
+    z-index: 100
+}
+
+.f-actions .ui-menu-item a {
+    line-height: 1.3
+}
+
+.f-actions .ui-menu-item .ui-menu-item {
+    min-width: 180px;
+    color: #fff !important;
+    margin-left: 0 !important;
+    padding: 0 10px
+}
+
+.empty,
+.hidden,
+.hide {
+    display: none !important
+}
+
+.invisible {
+    visibility: hidden
+}
+
+.ui-hr {
+    border-top: 1px solid #ccc;
+    width: 100%
+}
+
+.ui-indent {
+    display: inline-block;
+    height: 1em;
+    margin-right: 6px;
+    width: 1em
+}
+
+.ui-cf {
+    display: block;
+    clear: both
+}
+
+.ui-clickable {
+    cursor: pointer
+}
+
+.fBreadcrumb {
+    list-style: none;
+    margin-bottom: 1em
+}
+
+.fBreadcrumb li {
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+.fBreadcrumb li a {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 4px
+}
+
+.f-button {
+    background-color: #666;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: .5em .75em
+}
+
+.f-button:hover {
+    background-color: #000;
+    color: #fff
+}
+
+.f-button-block {
+    display: block;
+    width: 100%
+}
+
+.f-button.f-state-busy {
+    opacity: .75
+}
+
+.f-buttonset>.f-button {
+    margin: 0 -4px 0 0
+}
+
+.f-buttonset>.f-button:last-of-type {
+    margin-right: 0
+}
+
+.f-image {
+    height: auto;
+    margin-bottom: 6px;
+    max-width: 100%
+}
+
+.f-image-left {
+    float: left;
+    margin-right: 6px;
+    max-width: 300px
+}
+
+.f-image-right {
+    float: right;
+    margin-left: 6px;
+    max-width: 300px
+}
+
+.f-image-block {
+    float: none;
+    display: block;
+    height: auto;
+    max-width: 100%
+}
+
+@media screen and (max-width:640px) {
+    .f-image-left {
+        display: block;
+        float: none;
+        margin: 0 auto 6px
+    }
+
+    .f-image-right {
+        display: block;
+        float: none;
+        margin: 0 auto 6px
+    }
+}
+
+.ui-empty-block {
+    padding: 6em 0;
+    text-align: center
+}
+
+.dock-right,
+.f-fl-ri {
+    float: right
+}
+
+.dock-left,
+.f-fl-le {
+    float: left
+}
+
+.f-ta-ce,
+.falc {
+    text-align: center
+}
+
+.f-ta-le,
+.fall {
+    text-align: left
+}
+
+.f-ta-ri,
+.falr {
+    text-align: right
+}
+
+.f-ta-ju,
+.falj {
+    text-align: justify
+}
+
+.f-fs-bo {
+    font-weight: 700
+}
+
+.f-fs-it {
+    font-style: italic
+}
+
+.f-fs-ul {
+    font-style: underline
+}
+
+.f-loading *,
+.ui-loading *,
+.ui-tabs-panel[aria-busy=true] * {
+    visibility: hidden
+}
+
+.f-loading,
+.ui-loading,
+.ui-tabs-panel[aria-busy=true] {
+    background-image: url(images/loader.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: wait;
+    min-height: 20px;
+    min-width: 48px
+}
+
+span.ui-loading {
+    display: inline-block
+}
+
+select.ui-loading {
+    background-image: url(images/loader-small.gif) !important;
+    min-height: 0
+}
+
+#f-messages:empty {
+    display: none
+}
+
+#f-messages {
+    margin: 6px 0
+}
+
+#f-messages .item {
+    padding: .7em 1em;
+    background-color: #484f54;
+    color: #fff;
+    margin-bottom: .1em;
+    font-size: 110%
+}
+
+#f-messages .item.error {
+    background-color: #c70913;
+    color: #fff
+}
+
+#f-notifications {
+    position: fixed;
+    margin: 15px;
+    left: 0;
+    bottom: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    max-width: 100%;
+    width: 250px;
+    z-index: 9999
+}
+
+#f-notifications:empty {
+    display: none
+}
+
+#f-notifications .message {
+    background-color: #333;
+    border: 1px solid #000;
+    color: #fff;
+    margin-top: 4px;
+    padding: .5em
+}
+
+#f-notifications .message a {
+    color: #fff;
+    font-weight: 700
+}
+
+@media screen and (max-width:480x) {
+    #f-notifications {
+        width: 100%
+    }
+}
+
+ul.inline li {
+    display: inline;
+    list-style: none
+}
+
+ul.f-no-bullet {
+    list-style: none
+}
+
+ul.f-no-bullet li {
+    margin-left: 0
+}
+
+ul.bullet li,
+ul.f-bullet li {
+    list-style-position: inside;
+    list-style-type: square;
+    margin-left: 0
+}
+
+ol.bullet li,
+ol.f-bullet li {
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin-left: 12px
+}
+
+ol.f-no-bullet,
+ol.no-bullet,
+ul.f-no-bullet,
+ul.no-bullet {
+    list-style: none
+}
+
+ul.ui-nvp {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+ul.ui-nvp>li {
+    margin: 0;
+    overflow: hidden;
+    padding: .25em 0
+}
+
+ul.ui-nvp>li>.label {
+    display: inline-block;
+    float: left;
+    font-weight: 700;
+    margin-right: 1%;
+    width: 29%
+}
+
+ul.ui-nvp>li>.value {
+    display: block;
+    float: left;
+    margin: 0;
+    width: 70%
+}
+
+th {
+    text-align: left
+}
+
+table.ui-list {
+    border-collapse: collapse;
+    width: 100%
+}
+
+table.ui-table td,
+table.ui-table th {
+    padding: .4em
+}
+
+table.ui-list th {
+    background-color: #eee;
+    padding: .5em .4em
+}
+
+table tr.overline td,
+table.ui-list thead tr:first-of-type th {
+    border-top: 1px solid #ccc
+}
+
+table tr.underline td,
+table.ui-list thead tr:last-of-type th {
+    background: #000;
+    padding: 12px 17px;
+    font-size: 130%;
+    font-weight: 400;
+    color: #fff
+}
+
+table tr.underline td,
+table.ui-list thead tr:last-of-type th {
+    border-bottom: 1px solid #ccc
+}
+
+table.ui-list tr td {
+    padding: .7em .9em
+}
+
+table.ui-list tr td .title {
+    font-weight: 700
+}
+
+table.ui-list tr td .description {
+    display: block;
+    font-size: .9em
+}
+
+table.ui-striped tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, .05)
+}
+
+table.ui-bordered tr td,
+table.ui-bordered tr th {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc
+}
+
+table.ui-bordered tr td:last-of-type,
+table.ui-bordered tr th:last-of-type {
+    border-right: 1px solid #ccc
+}
+
+table.ui-bordered tr:last-of-type td {
+    border-bottom: 1px solid #ccc
+}
+
+.fForm input[type=button],
+.fForm input[type=checkbox],
+.fForm input[type=radio],
+.fForm input[type=submit] {
+    width: auto
+}
+
+.fForm .form-item input.f-button {
+    width: auto
+}
+
+.fForm .form-item.type-radio input {
+    display: inline-block
+}
+
+.fForm .form-item-radio label {
+    cursor: pointer;
+    display: inline-block
+}
+
+.cke textarea {
+    width: 100% !important;
+    max-width: 100%
+}
+
+.fForm .form-item.buttons {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.filter-form {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+    padding: .5em 0
+}
+
+.filter-form .form-item {
+    padding: 4px 12px
+}
+
+.filter-form .form-item.buttons {
+    margin: 0
+}
+
+.filter-form .form-item label {
+    display: inline-block;
+    font-weight: 700;
+    min-width: 200px
+}
+
+.filter-form .form-item input,
+.filter-form .form-item select,
+.filter-form .form-item textarea {
+    border: 1px solid #ccc;
+    max-width: 100%;
+    padding: .25em;
+    width: 200px
+}
+
+.filter-form .form-item .ui-multiselect {
+    width: 200px
+}
+
+.filter-form .form-item.buttons input {
+    border: none
+}
+
+@media screen and (min-width:768px) {
+    .filter-form {
+        overflow: hidden
+    }
+
+    .filter-form .form-item {
+        float: left;
+        margin-left: 2%;
+        width: 23.25%
+    }
+
+    .filter-form .form-item:nth-of-type(4n+1) {
+        clear: left;
+        margin-left: 0
+    }
+}
+
+ul.ui-list {
+    list-style: none;
+    overflow: hidden
+}
+
+ul.ui-list>li {
+    margin: 0;
+    padding: .25em
+}
+
+ul.ui-list-iconic>li {
+    display: inline-block;
+    text-align: center;
+    width: 20%
+}
+
+ul.ui-list-iconic>li .icon {
+    background-color: #eee;
+    display: block;
+    height: 64px;
+    margin: 0 auto;
+    width: 64px
+}
+
+ul.ui-list-iconic>li span {
+    display: block;
+    height: 2.2em;
+    overflow: hidden
+}
+
+th {
+    text-align: left
+}
+
+.f-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1em;
+    min-width: 100%
+}
+
+.f-table td {
+    padding: 10px 15px;
+    vertical-align: middle
+}
+
+td a.title {
+    font-size: 120%
+}
+
+.f-table .description,
+.ui-list .description {
+    font-style: italic;
+    font-size: 80%;
+    color: #ababab
+}
+
+.f-table-striped tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, .05)
+}
+
+.f-table td.rh {
+    background-color: #ddd !important;
+    color: #333;
+    font-weight: 700
+}
+
+.f-table-border-all,
+.f-table-border-outer {
+    border: 1px solid #ccc
+}
+
+.f-table-border-all td,
+.f-table-border-all th,
+.f-table-border-inner td,
+.f-table-border-inner th {
+    border: 1px solid #ccc
+}
+
+@media screen {
+    .f-table-striped tbody tr:hover {
+        background-color: #b8e0f2
+    }
+}
+
+.f-table th,
+.f-table tr.thead td {
+    padding: 12px 17px;
+    background: #000;
+    font-size: 120%;
+    font-weight: 400;
+    color: #fff
+}
+
+.f-table td.f-checkbox,
+.f-table th.f-checkbox {
+    width: 25px
+}
+
+td.f-actions,
+th.f-actions {
+    width: 35px
+}
+
+.f-table .form-item input,
+.f-table .form-item select {
+    height: 2.2em;
+    padding: 2px 2px;
+    width: auto
+}
+
+ul.f-nvp {
+    list-style: none;
+    margin: 0 0 6px 0;
+    padding: 0
+}
+
+ul.f-nvp>li {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: top
+}
+
+ul.f-nvp>li>.label {
+    display: inline-block;
+    margin-right: 6px
+}
+
+ul.f-nvp>li>.value {
+    display: inline-block
+}
+
+ul.f-nvp-balanced>li>.label {
+    box-sizing: border-box;
+    float: left;
+    margin-right: 2%;
+    width: 38%
+}
+
+ul.f-nvp-balanced>li>.value {
+    box-sizing: border-box;
+    float: left;
+    width: 60%
+}
+
+ul.f-list {
+    list-style: none
+}
+
+ul.f-list>li {
+    display: block
+}
+
+ul.f-list-grid>li {
+    float: left
+}
+
+body.fphp-modal .fRegion:not(.region-content) {
+    display: none
+}
+
+.store-cartentry-list tbody tr {
+    border-bottom: 1px solid #ddd
+}
+
+.side-cart.fphp-fixed .store-cartentry-list-cont {
+    max-height: 300px;
+    overflow-y: auto
+}
+
+#store-cart-flyout {
+    background-color: #000;
+    color: #fff;
+    display: none;
+    padding: 10px;
+    min-width: 400px
+}
+
+#store-cart-flyout .store-cartentry-list-cont {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: visible
+}
+
+.store-cartentry-list tr.parent {
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.store-cartentry-list tr.parent .title {
+    font-weight: 700
+}
+
+.f-table tr.child .prop-image {
+    display: none
+}
+
+.f-table tr.child .title-cont {
+    padding-left: 30px
+}
+
+.fForm .store-product-accessory-list label {
+    margin: 0;
+    padding: 0
+}
+
+ul.ui-list li {
+    float: left;
+    list-style: none !important;
+    margin: 0 !important;
+    position: relative
+}
+
+ul.ui-list li a {
+    padding: 15px 30px;
+    border: 1px solid #cdcdcd;
+    display: block
+}
+
+table.fListing th {
+    background: #000;
+    padding: 9px 12px !important;
+    font-size: 120%;
+    font-weight: 400;
+    color: #fff
+}
+
+table.fListing td {
+    padding: 16px 17px;
+    border-bottom: 1px solid #dedede
+}
+
+table.fListing td.primary a {
+    display: block;
+    font-weight: 400;
+    font-size: 130%
+}
+
+table.fListing .primary .info {
+    font-size: 90%;
+    font-style: italic;
+    color: #888
+}
+
+ul.fPageActions {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 9999999
+}
+
+ul.fPageActions li {
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    position: relative
+}
+
+ul.fPageActions ul {
+    margin: 0 !important;
+    position: absolute;
+    width: 150px;
+    right: 0;
+    display: none;
+    z-index: 9
+}
+
+ul.fPageActions li:hover ul {
+    display: block
+}
+
+ul.fPageActions li a {
+    font-size: 11px;
+    text-decoration: none;
+    padding: 3px 8px;
+    text-align: right;
+    color: #fff;
+    background: #333;
+    display: block
+}
+
+ul.fPageActions ul li a {
+    padding: 6px
+}
+
+ul.fPageActions ul li a:hover {
+    background: #000
+}
+
+.fMenuAdmin {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    z-index: 1000000
+}
+
+.fMenuAdmin a {
+    color: #fff !important
+}
+
+#fMessageAJAX {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    color: #fff;
+    padding: 6px;
+    display: none;
+    text-align: center;
+    z-index: 1000
+}
+
+.fRegion.empty {
+    display: none
+}
+
+body.f-live-edit .fRegion.ui-droppable-hover {
+    border-style: solid;
+    box-shadow: 0 0 .5em #ff9a07
+}
+
+body.f-live-edit .fModule {
+    min-height: 1em
+}
+
+body.f-live-edit .fModule:hover {
+    box-shadow: inset 0 0 1em #ccc
+}
+
+body.f-live-edit .fModule.fModuleSystemToolbar:hover {
+    box-shadow: none
+}
+
+body.f-module-drag-in-progress .fRegion {
+    box-shadow: inset 0 0 1em #84c40e;
+    min-height: 1em
+}
+
+body.f-module-drag-in-progress .fModule {
+    opacity: .5
+}
+
+.f-module-placeholder {
+    background-color: #666;
+    color: #fff;
+    min-height: 1em;
+    padding: .25em;
+    opacity: .5;
+    text-align: center
+}
+
+.f-module-placeholder.ui-droppable-hover {
+    background-color: #000;
+    opacity: 1
+}
+
+.fModule.ui-sortable-helper {
+    box-shadow: 0 0 .25em #f2dc00
+}
+
+.fModule {
+    position: relative
+}
+
+.fModule.fModuleSystemToolbar {
+    position: fixed
+}
+
+.fModule .f-module-toolbar {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background: rgba(0, 0, 0, .5);
+    transition: all .5s;
+    opacity: 0;
+    overflow: hidden;
+    display: block;
+    margin-left: 0;
+    margin-top: 0
+}
+
+.fModule.hover .f-module-toolbar {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    z-index: 99999
+}
+
+.f-module-toolbar-links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap
+}
+
+.fModule .f-module-toolbar .ui-button-text-only .ui-button-text {
+    padding: .1em .12em
+}
+
+.fModuleSystemToolbar {
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    font-size: 14px
+}
+
+.fModuleSystemToolbar .fModuleTitle {
+    display: none
+}
+
+.fModuleSystemToolbar .fModuleContent {
+    color: #fff !important;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: .25em .5em !important
+}
+
+.fModuleSystemToolbar .layer-a,
+.fModuleSystemToolbar .layer-b {
+    padding: .25em
+}
+
+.fModuleSystemToolbar .layer-b {
+    border-top: 1px solid #666
+}
+
+.fModuleSystemToolbar .fModuleContent a {
+    color: #fff !important
+}
+
+.fModuleSystemToolbar .layer-a .dock-left a {
+    border-right: 1px solid #666;
+    display: inline-block;
+    padding: 0 .4em
+}
+
+.fModuleSystemToolbar .layer-a .dock-left a:last-of-type {
+    border-right: none
+}
+
+.fModuleSystemToolbar .fphp-logo {
+    display: inline-block;
+    font-weight: 700
+}
+
+.fModuleSystemToolbar .dock-right {
+    float: right
+}
+
+.fModuleSystemToolbar .dock-left {
+    float: left
+}
+
+.fModuleSystemToolbar .layer-a {
+    overflow: hidden
+}
+
+.fModuleSystemToolbar .f-iconset>.item.ui-draggable-dragging {
+    background-color: #000;
+    border-radius: 6px;
+    height: 12px;
+    width: 12px;
+    overflow: hidden
+}
+
+.fModuleSystemToolbar .item.ui-draggable-dragging .label {
+    display: none
+}
+
+.fModuleSystemToolbar .f-iconset {
+    display: flex
+}
+
+.fModuleSystemToolbar .f-iconset .item {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    background: rgba(255, 255, 255, .1);
+    cursor: pointer
+}
+
+.fModuleSystemToolbar .f-iconset .item:hover {
+    border: 1px solid rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, .2)
+}
+
+.fModuleSystemToolbar .f-iconset .item img.icon {
+    display: block;
+    margin: 10px auto;
+    clear: both;
+    max-height: 100% !important;
+    max-height: 100% !important
+}
+
+.ui-menu.context-menu .ui-menu-item,
+.ui-menu.dashmenu .ui-menu-item {
+    min-width: 150px
+}
+
+.ui-menu.dashmenu {
+    z-index: 99999
+}
